@@ -1,4 +1,5 @@
-This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter project.
+This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter
+project.
 
 ## Getting Started
 
@@ -6,6 +7,7 @@ First, add your OpenAI API key to `.env.local` file:
 
 ```
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ASSISTANT_ID=asst_xxxxxxxxxxxxxx
 ```
 
 Then, run the development server:
@@ -20,6 +22,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the
+result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/page.tsx`. The page
+auto-updates as you edit the file.
